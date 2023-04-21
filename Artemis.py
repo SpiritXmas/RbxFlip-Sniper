@@ -7,7 +7,7 @@
 ██║░░██║██║░░██║░░░██║░░░███████╗██║░╚═╝░██║██║██████╔╝
 ╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░╚══════╝╚═╝░░░░░╚═╝╚═╝╚═════╝░
 
-Version 1.0 alpha
+https://github.com/SpiritXmas/RbxFlip-Sniper
 """
 
 CONFIG_NAME = "Relister"
