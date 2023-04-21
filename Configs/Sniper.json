@@ -1,0 +1,22 @@
+{
+    "Cookie":"",
+
+    "RateToBuy":1.8,
+    "Markup":0,
+
+    "MinimumCost":1,
+    "MaximumCost":150,
+
+    "UseBalanceAsMax":true,
+
+    "SearchDelay":1.5,
+
+    "PrioritiseExpensive":true,
+    "AutomaticRelisting":false,
+
+    "RolimonDemand":["Amazing", "High", "Normal"],
+
+    "CustomList":{},
+
+    "Blacklist":[]
+}

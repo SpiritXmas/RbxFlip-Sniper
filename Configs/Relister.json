@@ -1,0 +1,27 @@
+{
+    "Cookie":"",
+
+    "RateToBuy":1.9,
+    "Markup":0.1,
+
+    "MinimumCost":10,
+    "MaximumCost":150,
+
+    "UseBalanceAsMax":true,
+
+    "SearchDelay":0.5,
+
+    "PrioritiseExpensive":true,
+    "AutomaticRelisting":true,
+
+    "RolimonDemand":["Amazing", "High"],
+
+    "CustomList":{
+        "Playful Vampire":{
+            "MaxRate":2,
+            "NewRate":2.1
+        }
+    },
+
+    "Blacklist":[]
+}
