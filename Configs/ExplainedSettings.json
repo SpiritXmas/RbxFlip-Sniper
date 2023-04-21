@@ -1,0 +1,22 @@
+{
+    "Cookie":"", -> Cookie to your roblox account
+
+    "RateToBuy":1.8, -> The bot will either buy at this rate or lower
+    "Markup":0, -> Markup is the amount extra the bot will relist the item for. For example if the bot buys a "Playful Vampire" at a rate of 2.1 and markup was 0.1 it would resell the PV at 2.2
+
+    "MinimumCost":1, -> Minimum cost is the minimum price the limited has to be
+    "MaximumCost":150, -> Maximum cost is the maximum price the limited can be
+
+    "UseBalanceAsMax":true, -> This will override MaximumCost and use your balance, it updates dynamically.
+
+    "SearchDelay":0.5, -> Search delay is the delay between scanning through the marketplace.
+
+    "PrioritiseExpensive":true, -> If you have found many valid items and have this enabled it will prioritise buying the most expensive limiteds first
+    "AutomaticRelisting":false, -> This decides whether or not the bot relists the item.
+
+    "RolimonDemand":["Amazing", "High", "Normal"], -> This is the required demand rating the limited has to have in order to be bought. To check demands of items search them up in Rolimon.
+
+    "CustomList":{}, -> Custom list allows you to buy limiteds even if they are higher than the rate to buy. For example my rate to buy could be 1.9 but I can buy a Playful Vampire for 2. Checkout the relister config for usage.
+
+    "Blacklist":[] -> Items you want to ignore even if they fit the criteria.
+}
