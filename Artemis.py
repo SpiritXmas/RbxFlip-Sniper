@@ -15,12 +15,21 @@ CONFIG_NAME = "Relister"
 
 # IMPORTS
 
+import os
 import json
 import time
 import requests
 
 
 # PROCESS SETTINGS
+
+if not os.path.exists("Configs"):
+    print("[ARTEMIS] Couldn't find the configs folder.")
+    exit()
+
+if not os.path.isfile("Configs/" + CONFIG_NAME + ".json"):
+    print("[ARTEMIS] Couldn't find the config file.")
+    exit()
 
 Settings = json.loads(open("Configs/" + CONFIG_NAME + ".json", "r").read())
 
